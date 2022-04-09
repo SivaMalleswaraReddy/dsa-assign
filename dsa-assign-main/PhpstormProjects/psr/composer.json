@@ -1,0 +1,15 @@
+{
+    "name": "me/psr",
+    "authors": [
+        {
+            "name": "Hanvesh",
+            "email": "bummbleprimus18@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Acme\\" : "acme"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<form action="mail.php" method="POST">
+    <p>User's Name</p> <input type="text" name="name">
+    <p>User's Email</p> <input type="text" name="email">
+
+
+    <p>User's Issue</p>
+    <select name="User's Issue" size="1">
+        <option value="Query">Query</option>
+        <option value="FeedBack">FeedBack</option>
+        <option value="Complaint">Complaint</option>
+        <option value="Other's">Other's</option>
+    </select>
+    <br />
+    <p>
+        User's Comments</p>
+        <textarea name="message" rows="6" cols="25"></textarea>
+
+    <br />
+    <input type="submit" value="Send"><input type="reset" value="Clear">
+</form>

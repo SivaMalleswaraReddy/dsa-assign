@@ -1,0 +1,82 @@
+
+1. Which one of the following statements should be used to disable just thefopen(), and file() functions?
+a) disable_functions = fopen(), file()
+b) disable_functions = fopen, file
+c) functions_disable = fopen(), file()
+d) functions_disable = fopen, file
+
+Ans)b)disable_functions = fopen, file
+
+2. Which one of the following statements should be used to disable the use oftwo classes administrator and janitor?
+a) disable_classes = “administrator, janitor”
+b) disable_classes = class administrator, class janitor
+c) disable_classes = class “administrator”, class “janitor”
+d) disable_class = class “administrator”, class “janitor”
+
+Ans) a) disable_classes = “administrator, janitor”
+
+3. What is the default value of max_execution_time directive? This directivespecifies how many seconds a script can execute before being terminated.
+a) 10
+b) 20
+c) 30
+d) 40
+
+Ans) c)30
+
+
+4. The memory_limit is only applicable if ________ is enabled when youconfigure PHP.
+a) –enable-limit
+b) -enable-memory-limit
+c) –enable-memory-limit
+d) -memory-limit
+
+Ans) c) –enable-memory-limit
+
+5. Suppose all web material is located within the directory /home/www. Toprevent users from viewing and manipulating files such as /etc/password,which one of the following statements should you use?
+a) open_dir = “/home/www/”
+b) open_dir = /home/www/
+c) open_basedir = /home/www/
+d) open_basedir = “/home/www/”
+
+Ans) d)open_basedir = “/home/www/”
+
+6. Which Apache directive outputs Apache’s server version, server name, portand compile-in modules?
+a) ServerSignature
+b) ServerName
+c) ServerDetails
+d) ServerInfo
+
+Ans) a) ServerSignature
+
+7. Which directive determines which degree of server details is provided if theServerSignature directive is enabled?
+a) ServerAddons
+b) ServerExtra
+c) ServerTokens
+d) ServerDetails
+
+Ans)c) ServerTokens
+
+8. Which directive should we disable to obscure the fact that PHP is being usedon our server?
+a) show_php
+b) expose_php
+c) print_php
+d) info_php
+
+Ans) b) expose_php
+
+9. Say I want to change the extension of a PHP file, which of the followingstatements should I edit to change from .php to .html in the httpd.conf file?
+a) AddType application/x-httpd-php .php
+b) AddType application/x-httpd-php .asp
+c) AddType application/x-httpd-asp .php
+d) AddType application/x-httpd-asp .asp
+
+Ans) a) AddType application/x-httpd-php .php
+
+
+10. The developers of PHP deprecated the safe mode feature as of which PHPversion.
+a) PHP 5.1.0
+b) PHP 5.2.0
+c) PHP 5.3.0
+d) PHP 5.3.1
+
+Ans) c) PHP 5.3.0
